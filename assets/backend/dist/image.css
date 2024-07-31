@@ -1,0 +1,35 @@
+/* styles.css */
+.previewImg {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.previewImg img {
+    display: block;
+}
+
+.close-icon {
+    color: red;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+.card .card-content .grid-view {
+    min-height: 100px;
+}
+
+#kartik .file-caption {
+    padding-top: 20px;
+}
+#kartik .hint-block {
+    position: relative;
+    top:-80px;
+}
